@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class LineService {
-  final String _lineToken = 'BZVdQpaKEm7PhIYWrAQrKaE3l3bFF2Sk46U3bWiPzKw'; // Your Line Notify token
+  final String _lineToken = 'Insert Your Line Notify token'; // Your Line Notify token
 
   Future<void> sendOrderDetailsToLine(List<dynamic> items, String username) async {
     String message = '\nOrder confirmed by $username\n';
